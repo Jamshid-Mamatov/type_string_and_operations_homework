@@ -7,4 +7,6 @@ def main(x,y):
     Returns:
         str: return answer.
     """
-    return 
+    return f'''"(x+y)*2={pow(x+y,2)}"'''
+
+print(main(1,5))
